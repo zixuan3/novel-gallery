@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/novel-gallery/static/css/main.073c9b0a.css",
+    "main.js": "/novel-gallery/static/js/main.0d4e2f8c.js",
+    "static/js/787.3868b0d9.chunk.js": "/novel-gallery/static/js/787.3868b0d9.chunk.js",
+    "static/media/logo.svg": "/novel-gallery/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/novel-gallery/index.html",
+    "main.073c9b0a.css.map": "/novel-gallery/static/css/main.073c9b0a.css.map",
+    "main.0d4e2f8c.js.map": "/novel-gallery/static/js/main.0d4e2f8c.js.map",
+    "787.3868b0d9.chunk.js.map": "/novel-gallery/static/js/787.3868b0d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0d4e2f8c.js"
+  ]
+}
