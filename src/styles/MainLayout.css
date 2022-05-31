@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#MainScreen {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 4.5fr 39.5fr 4.5fr;
+    grid-template-columns: 3fr 8.2fr;
+}

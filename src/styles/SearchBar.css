@@ -1,0 +1,47 @@
+#SearchBarWrapper {
+    background-image: url("../img/background-wood-wallhaven-45q6l1.jpg");
+    grid-area: 1 / 2 / 2 / 3;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+#searchBar {
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+.searchInput {
+    width: 60%;
+    font-size: 200%;
+    font-weight: lighter;
+    color: #aeaeae;
+    padding-top: 1.3%;
+    padding-left: 1%;
+    padding-right: 0%;
+    padding-bottom: 1.3%;
+    background-color: #000000;
+    border: 8px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(#4c5051, #5f6467, #292929);
+    
+}
+
+.searchInput:focus {
+    outline-width: 0;
+    font-weight: lighter;
+    border-image-source: linear-gradient(#07a772, #0ce7a0, #01b177);
+}
+
+#searchIcon {
+    position: absolute;
+    margin-top: 2.1%;
+    margin-left: 41.6%;
+    color: #b89249;
+    font-size: 200%;
+}

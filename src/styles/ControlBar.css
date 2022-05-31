@@ -1,0 +1,76 @@
+#ControlBarWrapper {
+    background-image: linear-gradient(#090808, #060504, #000000, #161717);
+    background-color: darkcyan;
+    grid-area: 3 / 1 / 4 / 2;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.controlBarWrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.matchingNovels {
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 70%;
+    font-weight: bold;
+    font-size: 140%;
+    border: 8px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(#453e28, #3d3623);
+    background-image: linear-gradient(#ffe775, #e29d3a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #261610;
+    word-wrap: break-word
+}
+
+.resetFilters {
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 70%;
+    width: 60%;
+    font-weight: normal;
+    font-size: 220%;
+    border: 8px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(#453e28, #3d3623);
+    background-image: linear-gradient(#ffe775, #e29d3a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #261610;
+}
+
+.resetFilters:hover {
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 70%;
+    width: 60%;
+    font-weight: bold;
+    font-size: 220%;
+    border: 8px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(#0ce7a0, #01b177);
+    background-image: linear-gradient(#ffe775, #e29d3a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #261610;
+}

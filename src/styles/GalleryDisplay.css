@@ -1,0 +1,142 @@
+.fetchingInfo {
+    color: #ffffff;
+    font-size: 300%;
+    text-align: center;
+    height: 822px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 822px; 
+}
+
+#GalleryDisplayWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+#GalleryDisplayWrapper::after {
+    content: '';
+    flex: auto;
+}
+
+.novelCoverWrapper {
+    padding-right: 1.4%;
+    padding-bottom: 0.7%;
+    padding-top: 1.4%;
+    padding-left: 0%;
+    position: relative;
+}
+
+.novelCover{
+    height: 288px;
+    width: 200px;
+    display: block;
+    box-sizing: content-box;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right bottom, #ffbf00, #ffcc00, #ffc700, #ff8000);
+    border-image-slice: 1;
+}
+
+.novelCover:hover{
+    height: 288px;
+    width: 200px;
+    display: block;
+    box-sizing: content-box;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right bottom, #00ffff, #029e9e, #004d4d, #029e9e, #00ffff, #029e9e, #004d4d, #029e9e, #00ffff);
+    border-image-slice: 1;
+    transform: scale(1.08);
+}
+
+.rightInfoBox {
+    position: absolute;
+    top: 8px;
+    left: 229px;
+    width: 660px;
+    height: 311px;
+    z-index: 100;
+    box-sizing: content-box;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #7e6a53;
+    border-image-slice: 1;
+    background-color: #eedfc4;
+}
+
+.leftInfoBox {
+    position: absolute;
+    top: 8px;
+    right: 248px;
+    width: 660px;
+    height: 311px;
+    z-index: 100;
+    box-sizing: content-box;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #7e6a53;
+    border-image-slice: 1;
+    background-color: #eedfc4;
+}
+
+.novelTitle {
+    box-sizing: content-box;
+    border-width: 0 0 5px 0;
+    border-style: solid;
+    border-color: #7e6a53;
+    background-color: #613924;
+    color: #ffffff;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+
+.novelAuthor {
+    color: #311d21;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+
+.novelDescription {
+    color: #f98c4d;
+    font-size: 200%;
+    text-align: left;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+}
+
+.novelOverlordTicket {
+    color: blue;
+    font-size: 200%;
+    text-align: left;
+    padding-top: 1%;
+    padding-bottom: 0.5;
+    padding-left: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.novelRanking {
+    font-weight: bold;
+}
+
+.novelLabels {
+    color: #b81c25;
+    font-size: 200%;
+    text-align: left;
+    padding-top: 1%;
+    padding-bottom: 0.5;
+    padding-left: 1%;
+    padding-right: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
